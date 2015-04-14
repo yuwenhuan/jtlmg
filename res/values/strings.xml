@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FamilySong</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="song_name">家庭礼貌称呼歌</string>
+    <string name="lyric_yeye1">爸爸的爸爸叫什么？</string>
+    <string name="lyric_yeye2">爸爸的爸爸叫爷爷</string>
+    <string name="lyric_nainai1">爸爸的妈妈叫什么？</string>
+    <string name="lyric_nainai2">爸爸的妈妈叫奶奶</string>
+    <string name="lyric_bobo1">爸爸的哥哥叫什么？</string>
+    <string name="lyric_bobo2">爸爸的哥哥叫伯伯</string>
+    <string name="lyric_shushu1">爸爸的弟弟叫什么？</string>
+    <string name="lyric_shushu2">爸爸的弟弟叫叔叔</string>
+    <string name="lyric_gugu1">爸爸的姐妹叫什么？</string>
+    <string name="lyric_gugu2">爸爸的姐妹叫姑姑</string>
+    <string name="lyric_waigong1">妈妈的爸爸叫什么？</string>
+    <string name="lyric_waigong2">妈妈的爸爸叫外公</string>
+    <string name="lyric_waipo1">妈妈的妈妈叫什么？</string>
+    <string name="lyric_waipo2">妈妈的妈妈叫外婆</string>
+    <string name="lyric_jiujiu1">妈妈的兄弟叫什么？</string>
+    <string name="lyric_jiujiu2">妈妈的兄弟叫舅舅</string>
+    <string name="lyric_ayi1">妈妈的姐妹叫什么？</string>
+    <string name="lyric_ayi2">妈妈的姐妹叫阿姨</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="yeye">爷爷</string>
+    <string name="nainai">奶奶</string>
+    <string name="bobo">伯伯</string>
+    <string name="shushu">叔叔</string>
+    <string name="gugu">姑姑</string>
+    <string name="waigong">外公</string>
+    <string name="waipo">外婆</string>
+    <string name="jiujiu">舅舅</string>
+    <string name="ayi">阿姨</string>
+    <string name="text_recover">恢复</string>
+    <string name="chooser_prompt">请选择</string>
+
+</resources>

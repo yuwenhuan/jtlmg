@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/textYeye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/yeye"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/recoverYeye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/text_recover"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageYeye"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_toRightOf="@id/textYeye"
+                android:scaleType="centerInside"
+                android:src="@drawable/yy" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/textNainai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/nainai"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/recoverNainai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/text_recover"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageNainai"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_toRightOf="@id/textNainai"
+                android:scaleType="centerInside"
+                android:src="@drawable/nn" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/textBobo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/bobo"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/recoverBobo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/text_recover"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageBobo"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_toRightOf="@id/textBobo"
+                android:scaleType="centerInside"
+                android:src="@drawable/bb" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/textShushu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/shushu"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/recoverShushu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/text_recover"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageShushu"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_toRightOf="@id/textShushu"
+                android:scaleType="centerInside"
+                android:src="@drawable/ss" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/textGugu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/gugu"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/recoverGugu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/text_recover"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageGugu"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_toRightOf="@id/textGugu"
+                android:scaleType="centerInside"
+                android:src="@drawable/gg" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/textWaigong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/waigong"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/recoverWaigong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/text_recover"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageWaigong"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_toRightOf="@id/textWaigong"
+                android:scaleType="centerInside"
+                android:src="@drawable/wg" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/textWaipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/waipo"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/recoverWaipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/text_recover"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageWaipo"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_toRightOf="@id/textWaipo"
+                android:scaleType="centerInside"
+                android:src="@drawable/wp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/textJiujiu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/jiujiu"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/recoverJiujiu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/text_recover"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageJiujiu"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_toRightOf="@id/textJiujiu"
+                android:scaleType="centerInside"
+                android:src="@drawable/jj" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/textAyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/ayi"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/recoverAyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/text_recover"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageAyi"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_toRightOf="@id/textAyi"
+                android:scaleType="centerInside"
+                android:src="@drawable/ay" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
